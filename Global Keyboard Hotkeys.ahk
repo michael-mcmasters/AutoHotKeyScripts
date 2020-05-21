@@ -65,3 +65,7 @@ return
 !+3::
 Send, DebugExtension.DebugWireSphere(bezierPoint, Color.blue, 0.1f, 100);
 return
+
+!+4::
+Send, GameObject primitiveCube = GameObject.CreatePrimitive(PrimitiveType.Cube);{Enter}primitiveCube.transform.position = transform.position;
+return
